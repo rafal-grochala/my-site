@@ -1,0 +1,374 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 200;
+  font-style: normal;
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: italic;
+  src: url(../fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 10pt;
+  color: #252525;
+  background-color: #eeeeee;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 24pt;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-size: 22pt;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-size: 20pt;
+}
+
+h4 {
+  font-family: "Roboto";
+  font-size: 18pt;
+}
+
+h5 {
+  font-family: "Roboto";
+  font-size: 16pt;
+}
+
+h6 {
+  font-family: "Roboto";
+  font-size: 14pt;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+.row-reset {
+  margin: 0px;
+  padding: 0px;
+}
+
+.reset-margin-top {
+  margin-top: 0px;
+}
+
+.reset-margin-bottom {
+  margin-bottom: 0px;
+}
+
+.reset-margin-left {
+  margin-left: 0px;
+}
+
+.reset-margin-right {
+  margin-right: 0px;
+}
+
+.reset-margin-all {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.reset-padding-top {
+  padding-top: 0px;
+}
+
+.reset-padding-bottom {
+  padding-bottom: 0px;
+}
+
+.reset-padding-left {
+  padding-left: 0px;
+}
+
+.reset-padding-right {
+  padding-right: 0px;
+}
+
+.reset-padding-all {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.space-big {
+  height: 60px;
+}
+
+.space-small {
+  height: 30px;
+}
+
+.padding-top-small {
+  padding-top: 30px;
+}
+
+.padding-bottom-small {
+  padding-bottom: 30px;
+}
+
+.navigation-main {
+  height: 60px;
+  background-color: #515a5a;
+}
+
+.scroll-top {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 4px 10px;
+  font-size: 30px;
+  color: #515a5a;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 15px 0px #C4C4C4;
+  -moz-box-shadow: 0px 0px 15px 0px #C4C4C4;
+  box-shadow: 0px 0px 15px 0px #C4C4C4;
+}
+
+.scroll-top:hover {
+  color: #ffffff;
+  background-color: orange;
+  text-decoration: none;
+}
+
+.header-mainpage {
+  padding: 60px 0px 30px 0px;
+  background-image: radial-gradient(#6f7677, #2d2e2e);
+}
+
+.section-default {
+  margin: 60px 0px 30px 0px;
+}
+
+footer {
+  font-size: 1.2em;
+  background-color: #ccd1d1;
+  padding: 45px 0px 45px 0px;
+}
+
+.article-lg {
+  margin: 0px 0px 30px 0px;
+}
+
+.article-lg .content time {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  z-index: 999;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 45px;
+}
+
+.article-lg .content .area {
+  overflow: hidden;
+  max-height: 360px;
+  width: auto;
+}
+
+.article-lg .content .area .mask {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  z-index: 99;
+  width: 1110px;
+  height: 360px;
+  background-color: orange;
+  opacity: .7;
+}
+
+.article-lg .content .area picture {
+  z-index: 1;
+}
+
+.article-lg .content .area picture img {
+  background-color: darkgray;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.article-lg .content .area header {
+  z-index: 999;
+  font-size: 1.4em;
+  color: #ffffff;
+  background-color: #424949;
+  padding: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 45px;
+  bottom: 30px;
+  letter-spacing: 1px;
+  max-width: 1045px;
+}
+
+.article-lg a {
+  color: #252525;
+}
+
+.article-lg a:hover {
+  text-decoration: none;
+}
+
+.article-lg a:hover .content time {
+  background-color: orange;
+}
+
+.article-lg a:hover .content .area .mask {
+  display: block;
+}
+
+.article-lg a:hover .content .area picture img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.article-lg a:hover .content .area header {
+  background-color: orange;
+  color: white;
+}
+
+.article-md {
+  margin: 0px 0px 30px 0px;
+}
+
+.article-md .content {
+  -webkit-box-shadow: 0px 0px 15px 0px #cccccc;
+  -moz-box-shadow: 0px 0px 15px 0px #cccccc;
+  box-shadow: 0px 0px 15px 0px #cccccc;
+}
+
+.article-md .content time {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  z-index: 999;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 45px;
+}
+
+.article-md .content .area {
+  overflow: hidden;
+  max-height: 360px;
+  width: auto;
+}
+
+.article-md .content .area .mask {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  z-index: 99;
+  width: 540px;
+  height: 360px;
+  background-color: orange;
+  opacity: .7;
+}
+
+.article-md .content .area picture {
+  z-index: 1;
+}
+
+.article-md .content .area picture img {
+  background-color: darkgray;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.article-md .content header {
+  z-index: 999;
+  font-size: 1.4em;
+  background-color: white;
+  padding: 30px;
+}
+
+.article-md a {
+  color: #252525;
+}
+
+.article-md a:hover {
+  text-decoration: none;
+}
+
+.article-md a:hover .content time {
+  background-color: orange;
+}
+
+.article-md a:hover .content .area .mask {
+  display: block;
+}
+
+.article-md a:hover .content .area picture img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.article-md a:hover .content header {
+  background-color: orange;
+  color: white;
+}

@@ -1,0 +1,100 @@
+// positioning options
+
+    .right{
+        float: right;
+        clear: both;
+    }
+
+    .left{
+        float: left;
+        clear: both;
+    }
+
+
+// clearing float
+
+    .clear{
+        clear: both;
+    }
+
+
+// reseting all margins and paddings
+
+    .row-reset{
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+// reseting margins
+
+    .reset-margin-top{
+        margin-top: 0px;
+    }
+
+    .reset-margin-bottom{
+        margin-bottom: 0px;
+    }
+
+    .reset-margin-left{
+        margin-left: 0px;
+    }
+
+    .reset-margin-right{
+        margin-right: 0px;
+    }
+
+    .reset-margin-all{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+
+// reseting paddings
+
+    .reset-padding-top{
+        padding-top: 0px;
+    }
+
+    .reset-padding-bottom{
+        padding-bottom: 0px;
+    }
+
+    .reset-padding-left{
+        padding-left: 0px;
+    }
+
+    .reset-padding-right{
+        padding-right: 0px;
+    }
+
+    .reset-padding-all{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+
+
+// space
+
+    .space-big{
+        height: 60px;
+    }
+
+    .space-small{
+        height: 30px;
+    }
+
+
+// padding
+
+    .padding-top-small{
+        padding-top: 30px;
+    }
+
+    .padding-bottom-small{
+        padding-bottom: 30px;
+    }
